@@ -86,7 +86,7 @@ df = pd.DataFrame({
 #sample = random.choice(filenames)
 #image = load_img("D:/Study/4 course/Kursach/train/" + sample)
 #plt.imshow(image)
-'''
+
 model = Sequential()
 
 # 1 - Convolution
@@ -138,7 +138,7 @@ learning_rate_reduction = ReduceLROnPlateau(monitor='val_accuracy',
                                             min_lr=0.00001)
 
 callbacks = [earlystop, learning_rate_reduction]
-'''
+
 df["category"] = df["category"].replace({0: '0-3', 
 1: '4-11', 2: '12-18', 3: '18-25', 4: '25-35', 
 5: '35-50', 6: '50-65', 7: '65+'}) 
@@ -192,7 +192,7 @@ validation_generator = validation_datagen.flow_from_dataframe(
     class_mode='categorical',
     batch_size=batch_size
 )
-'''
+
 history = model.fit(
     train_generator, 
     epochs=epochs,
@@ -203,7 +203,7 @@ history = model.fit(
 )
 
 model.save_weights("D:/Study/4 course/Kursach/model.h5")
-'''
+
 epochs = 1 if FAST_RUN else 10   
 model = ld("D:/Study/4 course/Kursach/model.h5")
 print(model)
@@ -212,7 +212,7 @@ history = model
 class GraphicsForm(QtWidgets.QDialog):
     
     def show_graphics(self):
-        '''
+        
         acc = history.history['accuracy']
         val_acc = history.history['val_accuracy']
 
@@ -234,11 +234,7 @@ class GraphicsForm(QtWidgets.QDialog):
         plt.legend(loc='upper right')
         plt.title('Потери на обучающих и валидационных данных')
         plt.savefig('D:/Study/4 course/Kursach/graphics.jpg')
-        '''
-        image = Img.open("D:/Study/4 course/Kursach/2.jpg")
-        image_arr = np.array(image)
-        self.set_graphics_frame(image_arr)
-    
+
     def set_graphics_frame(self, image):
         self.origin_img = cv2.resize(image, dsize=(1040, 480))
         image = QtGui.QImage(self.origin_img.data, self.origin_img.shape[1], self.origin_img.shape[0], QtGui.QImage.Format_RGB888)
@@ -347,12 +343,6 @@ class KursachWindow(QtWidgets.QMainWindow):
         elif format(category) == '65+':
             self.predictValue = '65 лет и больше'
         print('\n', self.predictValue)
-            #img = load_img("D:/Study/4 course/Kursach/test2/" + filename, target_size=IMAGE_SIZE)
-            #plt.subplot(6, 3, index+1)
-            #plt.imshow(img)
-            #plt.xlabel(filename + '(' + "{}".format(category) + ')' )
-        #plt.tight_layout()
-        #plt.show()
 
     def set_via_webcam(self):
         if self.thread is None:
@@ -396,23 +386,15 @@ class KursachWindow(QtWidgets.QMainWindow):
                 print(ex)
 
     def get_value_model(self):
-        '''
         val_acc = max(history.history['val_accuracy']) * 100
-        self.val_accuracy.setText(str(val_acc))
-        '''
-        val_acc = 0.8408
         self.val_accuracy.setText(str(val_acc))
 
     def get_prediction_model(self):
-        '''
         self.acc = max(history.history['val_accuracy']) * 100
         print(self.acc)
         self.accuracy.setText(str(np.ceil(self.acc)) + ' %')
         self.prediction.setText(self.predictValue)
-        '''
-        self.acc = 0.8408 * 100
-        self.accuracy.setText(str(np.ceil(self.acc)) + ' %')
-        self.prediction.setText(self.predictValue)
+
     
     def save_csv_file(self):
         os.chdir("D:/Study/4 course/Kursach")
