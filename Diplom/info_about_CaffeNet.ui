@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1149</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>581</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Определение возраста человека по его лицу&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Информация об архитектуре CaffeNet&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accuracy">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>170</y>
+     <width>401</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefixInfoCaffeNet/caffeNet accuracy 2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="results">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>460</y>
+     <width>371</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefixInfoCaffeNet/caffeNet accuracy.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>660</y>
+     <width>1101</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 12pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Figure 1. The plots are ordered column-wise over model architectures and row-wise according to prediction problem, showing model
+performance over training time given different initializations and data preprocessing settings. The top and bottom dashed lines in each plot
+show worst and best reference accuracy results from [24, 32] and [7], with the horizontal axis increasing with training iterations. Thick
+lines show results taken by us. Color coding corresponds to data preprocessing and shading to model initialization: Blue color stands for
+affine [i]n-plane alignment. Violet lines correspond to [r]otation alignment. Orange lines show the model performances for training on
+the [m]ixed training set. Translucent line color stands for training with random model initialization, fully opaque and solid lines show
+performance for finetuning on ImageNet weights and dashed lines correspond to model initialization using IMDB-WIKI weights, only
+applied to the VGG-16 model. All results are averaged over the five splits of the Adience data set.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="graphics">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>521</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/newPrefixInfoCaffeNet/graphics age.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>90</y>
+     <width>581</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 12pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Expressive architecture encourages application and innovation. Models and optimization are &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;defined by configuration without hard-coding. Switch between CPU and GPU by setting&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;a single flag to train on a GPU machine then deploy to commodity &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;clusters or mobile devices.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Extensible code fosters active development. In Caffe’s first year, it has been forked by over &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;,000 developers and had many significant changes contributed back. Thanks to these contributors&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;the framework tracks the state-of-the-art in both code and models.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Speed makes Caffe perfect for research experiments and industry deployment. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Caffe can process over 60M images per day with a single NVIDIA K40 GPU*. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;That’s 1 ms/image for inference and 4 ms/image for learning and more recent&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;library versions nd hardware are faster still. We believe that Caffe is &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;among the fastest convnet implementations available.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="diplom.qrc"/>
+ </resources>
+ <connections/>
+</ui>

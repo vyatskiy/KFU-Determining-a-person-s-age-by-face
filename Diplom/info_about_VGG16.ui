@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>581</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Определение возраста человека по его лицу&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Информация об архитектуре VGG-16</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="table">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>491</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/imageVGG/vgg16_3.jpg);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="model">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>660</y>
+     <width>621</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/imageVGG/vgg16.png);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="architecture">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>10</y>
+     <width>431</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/imageVGG/vgg16_2.png);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>360</y>
+     <width>601</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/imageVGG/vgg160.png);
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VGG16 гораздо глубже, состоящий из 16 весовых слоев,&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;включая тринадцать сверточных слоев с размером фильтра 3 X 3,&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;и плотно соединенных слоев(fully-connected layers) с размером фильтра &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;3 X 3. Конфигурации fully-connected layers в VGG-16 подходят под AlexNet.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Шаг и отступ всех сверточных слоев фиксируются на 1 пикселе.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Абсолютно все сверточные слои содержат в себе 5 групп, &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;поэтому за каждой группой следует &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;слой максимального объединения(max-pooling layer).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>650</y>
+     <width>481</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/imageVGG/vgg160.png);
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Архитектура VGGNet возникла из-за необходимости&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;уменьшить количество параметров в&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;сверточных слоях, также и сократить их время обучения.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Существует несколько вариантов&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VGGNet (VGG16, VGG19 и т.д.), отличительная черта которых&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;состоит лишь в общем количестве&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;слоев. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>820</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/imageVGG/vgg160.png);
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic; color:#6b6b6b;&quot;&gt;Рис.2 Процесс свертки VGGNet модели &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>310</y>
+     <width>391</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/imageVGG/vgg160.png);
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic; color:#666666;&quot;&gt;Рис.1 Архитектура VGGNet &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="diplom.qrc"/>
+ </resources>
+ <connections/>
+</ui>

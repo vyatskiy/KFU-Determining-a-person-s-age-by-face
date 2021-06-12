@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>879</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/newPrefixBack/back.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>591</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Определение возраста человека по его лицу&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>780</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Calibri&quot;;
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0));</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#323232;&quot;&gt;Многоклассовая нейросеть&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>780</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/myPrefix/unnamed.jpg);
+border-image: url(:/newPrefix/unnamed.jpg);
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>190</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Run OpenCV&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>490</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+background-color: rgb(255, 250, 170);
+font: 10pt &quot;Calibri&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>350</y>
+      <width>461</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Впишите название изображения, &lt;br/&gt;находящегося в той же директории,&lt;br/&gt;что и сам проект, в строку ниже&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="example">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>390</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#414141;&quot;&gt;Пример: man1.jpg&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="launchButton">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>550</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Запустить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="infoCaffeNetButton">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>630</y>
+      <width>391</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Информация об архитектуре - CaffeNet</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>540</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Или просто выберите &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;изображение в MenuBar&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>20</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>310</y>
+      <width>20</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/sunlight-white-simple-background-minimalism-sky-text-blue-gradient-texture-circle-atmosphere-gray-empty-light-color-fog-shape-line-screenshot-atmospheric-phenomenon-computer-wallpaper-atmosphere-of-earth-238647.jpg);
+font: 14pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1152</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(197, 197, 197);</string>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файлы</string>
+    </property>
+    <addaction name="actionOpen"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="diplom.qrc"/>
+ </resources>
+ <connections/>
+</ui>

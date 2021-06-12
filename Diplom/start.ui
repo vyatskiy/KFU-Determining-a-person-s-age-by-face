@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1151</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/newPrefixBack/back.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Title">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>190</y>
+      <width>531</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Определение возраста человека по его лицу&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startMainButton">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>680</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>начать</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="VGGRadioButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>500</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>VGG-16 Model (Keras)</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="CaffeRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>500</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>CaffeNet Model (OpenCV)</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>340</y>
+      <width>471</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:2, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.44 rgba(252, 128, 128, 80), stop:0.512438 rgba(124, 112, 118, 156), stop:0.751244 rgba(255, 188, 188, 80), stop:0.756219 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));
+border-image: url(:/newPrefixObj/1612493406_211-p-serii-tsvet-na-belom-fone-243.jpg);
+font: 16pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Выберите модель для прогнозирования&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="diplom.qrc"/>
+ </resources>
+ <connections/>
+</ui>
